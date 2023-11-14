@@ -274,81 +274,84 @@ table {
 }
 
 .outer-title-h2 {
-    margin: 10px 0px 15px 210px;
+    margin: 10px 0px 30px 210px;
+}
+
+.group {
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
 }
 
 .group-area {
+    grid-column: 2/3;
+    grid-row: 1/2;
     background-color: #C71585;
-    width: 500px;
-    height: 360px;
-    margin-left: 200px;
-    position: relative;
+    height: 400px;
 }
 
-.group-area-title {
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.group-area-svg {
-    width: 150px;
-    height: 150px;
-    display: block;
-    margin: 0 auto;
-}
-
-.group-area-text {
-    text-align: center;
-    color: #FFFFFF;
-    line-height: 1.5;
-}
-
-.group-domain {
-    background-color: #FF69B4;
-    width: 500px;
-    height: 180px;
-    margin: -360px 0px 0px 52%;
-}
-
-.group-domain-svg {
-    content: url(img/service__first.svg);
-    width: 150px;
-    height: 150px;
-}
-
-.group-domain-title {
-    margin: -100px 0px 0px 200px;
-    color: #FFFFFF;
-}
-
-.group-domain-text {
-    margin-left: 180px;
-    color: #FFFFFF;
-    line-height: 1.5;
-}
-
-.group-field {
-    background-color: #D8BFD8;
-    width: 500px;
-    height: 180px;
-    margin: -5px 0px 0px 52%;
-}
-
+.group-area-svg,
+.group-domain-svg,
 .group-field-svg {
     width: 150px;
     height: 150px;
 }
 
-.group-field-title {
-    margin: -100px 0px 0px 200px;
+.group-area-svg {
+    display: block;
+    margin: 30px auto;
+}
+
+.group-area-title {
+    text-align: center;
+    font-weight: bold;
     color: #FFFFFF;
 }
 
-.group-field-text {
-    margin-left: 180px;
+.group-area-text {
+    margin-left: 20px;
     color: #FFFFFF;
-    line-height: 1.5;
 }
+
+.group-domain {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: #FF69B4;
+}
+
+.group-field {
+    grid-column: 3/4;
+    grid-row: 2/2;
+    background-color: #D8BFD8;
+}
+
+.group-domain-svg,
+.group-field-svg {
+    margin-top: 25px;
+}
+
+.group-domain-title,
+.group-field-title {
+    color: #FFFFFF;
+    margin: -120px 0px 0px 150px;
+}
+
+.group-domain-text,
+.group-field-text {
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+.group-area-text,
+.group-domain-text,
+.group-field-text {
+    line-height: 1.6;
+}
+
+
+
+
+
 
 
 
