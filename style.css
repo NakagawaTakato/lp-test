@@ -119,10 +119,9 @@ table {
     padding-left: 27%;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 1000px) and (max-width: 1500px) {
     .list {
-        justify-content: flex-start;
-        padding-left: 70px;
+        margin: 0px auto;
     }
 }
 
