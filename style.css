@@ -330,21 +330,24 @@ table {
     margin-top: 25px;
 }
 
-.group-domain-title,
-.group-field-title {
-    color: #FFFFFF;
+.group-domain-space,
+.group-field-mass {
     margin: -120px 0px 0px 150px;
 }
 
-.group-domain-text,
-.group-field-text {
+.group-domain-space-title,
+.group-field-mass-title {
     color: #FFFFFF;
-    margin-left: 50px;
+}
+
+.group-domain-space-text,
+.group-field-mass-text {
+    color: #FFFFFF;
 }
 
 .group-area-text,
-.group-domain-text,
-.group-field-text {
+.group-domain-space-text,
+.group-field-mass-text {
     line-height: 1.6;
 }
 
