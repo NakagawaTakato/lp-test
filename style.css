@@ -507,7 +507,7 @@ table {
 
 .service {
     position: relative;
-    top: 500px;
+    top: 100px;
 }
 
 .service-parent {
@@ -539,7 +539,7 @@ table {
 
 .info {
     position: relative;
-    top: 550px;
+    top: 150px;
 }
 
 .info-text {
@@ -593,7 +593,7 @@ table {
 .footer {
     background-color: rgba(200, 200, 200, 0.25);
     position: relative;
-    top: 550px;
+    top: 150px;
     padding: 20px 0;
     text-align: center;
 }
