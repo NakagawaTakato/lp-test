@@ -458,6 +458,12 @@ table {
     margin: 0 auto;
 }
 
+@media (min-width: 1000px) and (max-width: 1500px) {
+    .about {
+        margin: 0px auto;
+    }
+}
+
 .about-outer {
     margin-top: 100px;
 }
