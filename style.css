@@ -113,16 +113,13 @@ table {
 
 
 .list {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    margin-top: 25px;
-    padding-left: 27%;
+    width: 80%;
+    margin: 25px auto;
 }
 
 @media (min-width: 1000px) and (max-width: 1500px) {
     .list {
-        margin: 0px auto;
+        margin: 25px auto;
     }
 }
 
@@ -356,7 +353,8 @@ table {
 }
 
 .wrapper-outer {
-    margin-right: 70%;
+    margin-right: auto;
+    ;
     padding: 20px 0px;
 }
 
@@ -454,13 +452,13 @@ table {
 
 
 .about {
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
 }
 
 @media (min-width: 1000px) and (max-width: 1500px) {
     .about {
-        width: 90%;
+        width: 60%;
         margin: 0px auto;
     }
 
@@ -574,7 +572,7 @@ table {
 
 .info-button-main {
     position: relative;
-    background-color: #C71585;
+    background: linear-gradient(90deg, #E533A3, #C71585);
     width: 200px;
     display: block;
     padding: 18px;
