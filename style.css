@@ -128,10 +128,12 @@ table {
     font-family: 'Caveat', cursive;
     color: #C71585;
     margin: 40px 0px 0px 210px;
+    font-size: 20px;
 }
 
 .list-title-h2 {
     margin: 10px 0px 30px 210px;
+    font-size: 25px;
 }
 
 .list-group-area_first {
@@ -199,10 +201,12 @@ table {
     color: #C71585;
     margin: 30px 0px 20px 0px;
     margin-left: 50%;
+    font-size: 20px;
 }
 
 .container-title-h2 {
     margin: 0px auto;
+    font-size: 25px;
 }
 
 .container-group-text {
@@ -231,10 +235,12 @@ table {
     font-family: 'Caveat', cursive;
     color: #C71585;
     margin: 40px 0px 0px 210px;
+    font-size: 20px;
 }
 
 .outer-title-h2 {
     margin: 10px 0px 30px 210px;
+    font-size: 25px;
 }
 
 .group {
@@ -342,10 +348,12 @@ table {
     font-family: 'Caveat', cursive;
     color: #C71585;
     margin: 20px 0px 0px 210px;
+    font-size: 20px;
 }
 
 .wrapper-outer-title-h2 {
     margin: 10px 0px 0px 210px;
+    font-size: 25px;
 }
 
 .wrapper-groups-container {
@@ -449,16 +457,18 @@ table {
 }
 
 .about-outer {
-    margin-top: 100px;
+    margin: 35px 0px;
 }
 
 .about-outer-title {
     font-family: 'Caveat', cursive;
     color: #C71585;
+    font-size: 20px;
 }
 
 .about-outer-title-h2 {
     margin: 10px 0px;
+    font-size: 25px;
 }
 
 .about-table {
@@ -519,12 +529,14 @@ table {
     grid-column: 1/2;
     grid-row: 1/1;
     background-image: url('img/recruit.png');
+    font-size: 25px;
 }
 
 .service-parent-logo2 {
     grid-column: 2/2;
     grid-row: 1/1;
     background-image: url('img/interview.png');
+    font-size: 25px;
 }
 
 .info {
