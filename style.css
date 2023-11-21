@@ -199,12 +199,10 @@ table {
     color: #C71585;
     margin: 30px 0px 20px 0px;
     margin-left: 50%;
-    font-size: 20px;
 }
 
 .container-title-h2 {
-    margin-left: 37%;
-    font-size: 30px;
+    margin: 0px auto;
 }
 
 .container-group-text {
