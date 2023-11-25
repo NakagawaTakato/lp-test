@@ -74,10 +74,15 @@ table {
 .eyecatch-copy {
     position: absolute;
     font-family: 'Gloria Hallelujah', cursive;
-    color: #C71585;
+    color: #B31667;
     left: 360px;
-    bottom: 240px;
+    bottom: 200px;
     font-size: 50px;
+    line-height: 1.2;
+}
+
+.catch-copy-color {
+    color: #0D9FB7;
 }
 
 .eyecatch-comment {
@@ -95,7 +100,7 @@ table {
 }
 
 .eyecatch-comment {
-    color: #C71585;
+    color: #B31667;
     font-weight: bold;
     font-size: 30px;
 }
@@ -126,7 +131,7 @@ table {
 
 .list-title {
     font-family: 'Caveat', cursive;
-    color: #C71585;
+    color: #B31667;
     margin: 40px 0px 0px 210px;
     font-size: 20px;
 }
@@ -165,7 +170,7 @@ table {
 .list-group-area-news {
     width: 100px;
     height: 20px;
-    background: #C71585;
+    background: #B31667;
     border-radius: 30px;
     color: #FFFFFF;
     margin: 0px 20px;
@@ -198,7 +203,7 @@ table {
 
 .container-title {
     font-family: 'Caveat', cursive;
-    color: #C71585;
+    color: #B31667;
     margin: 30px 0px 20px 0px;
     margin-left: 50%;
     font-size: 20px;
@@ -233,7 +238,7 @@ table {
 
 .outer-title {
     font-family: 'Caveat', cursive;
-    color: #C71585;
+    color: #B31667;
     margin: 40px 0px 0px 210px;
     font-size: 20px;
 }
@@ -252,7 +257,7 @@ table {
 .group-area {
     grid-column: 2/3;
     grid-row: 1/2;
-    background-color: #C71585;
+    background-color: #B31667;
     height: 400px;
 }
 
@@ -282,13 +287,13 @@ table {
 .group-domain {
     grid-column: 3/4;
     grid-row: 1/2;
-    background-color: #FF69B4;
+    background-color: #B35B8B;
 }
 
 .group-field {
     grid-column: 3/4;
     grid-row: 2/2;
-    background-color: #D8BFD8;
+    background-color: #B2889E;
 }
 
 .group-domain-svg,
@@ -346,7 +351,7 @@ table {
 
 .wrapper-outer-title {
     font-family: 'Caveat', cursive;
-    color: #C71585;
+    color: #B31667;
     margin: 20px 0px 0px 210px;
     font-size: 20px;
 }
@@ -373,7 +378,7 @@ table {
 }
 
 .wrapper-group-blog-span {
-    background-color: #C71585;
+    background-color: #B31667;
     border-radius: 10px 0px 0px 0px;
     display: flex;
     justify-content: center;
@@ -424,8 +429,8 @@ table {
     text-decoration: none;
     width: 200px;
     padding: 20px 0;
-    color: #C71585;
-    border: 3px solid #C71585;
+    color: #B31667;
+    border: 3px solid #B31667;
     border-radius: 30px;
     text-align: center;
     margin: 20px 0px;
@@ -462,7 +467,7 @@ table {
 
 .about-outer-title {
     font-family: 'Caveat', cursive;
-    color: #C71585;
+    color: #B31667;
     font-size: 20px;
 }
 
@@ -557,14 +562,14 @@ table {
 
 .info-line-inner {
     height: 30px;
-    border-left: 2px solid #C71585;
+    border-left: 2px solid #B31667;
     position: absolute;
     left: 50%;
 }
 
 .info-button-main {
     position: relative;
-    background: linear-gradient(90deg, #E533A3, #C71585);
+    background: linear-gradient(90deg, #EF1D88, #B31667);
     width: 200px;
     display: block;
     padding: 18px;
